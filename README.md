@@ -15,10 +15,16 @@ Sistema distribuído para gerenciamento de listas de compras desenvolvido com **
 ### Contexto Acadêmico
 
 **Instituição:** Pontifícia Universidade Católica de Minas Gerais (PUC Minas)  
+
 **Instituto:** Instituto de Ciências Exatas e Informática (ICEI)  
+
 **Disciplina:** Laboratório de Desenvolvimento de Aplicações Móveis e Distribuídas  
+
 **Professor:** Cleiton Tavares
+
 **Desenvolvedora:** Milena Lara Reis Ferreira  
+
+**Apresentação em vídeo:** https://drive.google.com/file/d/1_yuewKlJ5h_MaEHDn1cL6oh7XfGfhhP9/view?usp=sharing
 
 ---
 

@@ -1,11 +1,34 @@
 {
-  "list-service": {
-    "url": "http://localhost:3002",
-    "port": 3002,
-    "status": "healthy",
-    "registeredAt": 1758500301027,
-    "lastHealthCheck": 1758500301027,
+  "user-service": {
+    "url": "http://localhost:3001",
+    "version": "1.0.0",
+    "database": "JSON-NoSQL",
+    "endpoints": [
+      "/health",
+      "/auth/register",
+      "/auth/login",
+      "/users",
+      "/search"
+    ],
+    "registeredAt": 1758508025425,
+    "lastHealthCheck": 1758508389371,
     "healthy": true,
-    "pid": 14465
+    "pid": 36902
+  },
+  "item-service": {
+    "url": "http://localhost:3003",
+    "version": "1.0.0",
+    "database": "JSON-NoSQL",
+    "domain": "Shopping List Items",
+    "endpoints": [
+      "/health",
+      "/items",
+      "/categories",
+      "/search"
+    ],
+    "registeredAt": 1758508025970,
+    "lastHealthCheck": 1758508389375,
+    "healthy": true,
+    "pid": 36940
   }
 }

@@ -246,8 +246,8 @@ class UserService {
                 },
                 process.env.JWT_SECRET || 'user-secret',
                 { expiresIn: '24h' }
-            ); 
-                    username: newUser.username,
+            );
+
             res.status(201).json({
                 success: true,
                 message: 'Usuário criado com sucesso',
@@ -298,6 +298,11 @@ class UserService {
             
             if (!isPasswordValid) {
                 return res.status(401).json({
+                    success: false,
+                    message: 'Credenciais inválidas'
+                });
+            }
+
             // Gerar token JWT
             const token = jwt.sign(
                 { 
